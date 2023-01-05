@@ -1,5 +1,5 @@
 Student name: Solaiman Hossain
 Student number: 700695
-Student class: your class
+Student class: IT1E
 URL student GitHub website: https://Shohagh45.github.io
-o URL student GitHub repository: https://github.com/Shohagh45/Shohagh45.github.io
+URL student GitHub repository: https://github.com/Shohagh45/Shohagh45.github.io
