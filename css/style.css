@@ -98,7 +98,7 @@ nav ul li a:hover {
     z-index: 9999;
 }
 
-.cookie-statement > button {
+.cookie-statement>button {
     margin: 5px 0;
     padding: 5px;
     background-color: #02692d;
@@ -106,7 +106,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.cookie-statement > button:hover {
+.cookie-statement>button:hover {
     padding: 5px;
     background-color: #0f833f;
 }
@@ -164,7 +164,7 @@ article header>h2 {
 }
 
 .art-image {
-    width: 300px;    
+    width: 300px;
     margin: 5px;
     border-width: thick;
     border-style: double;
@@ -192,7 +192,7 @@ article header>h2 {
 }
 
 .article-list+aside ol {
-    padding-left: 20px;    
+    padding-left: 20px;
     line-height: 30px;
 }
 
@@ -221,7 +221,7 @@ article header>h2 {
         margin: 0 8px;
     }
 
-    .article-list {        
+    .article-list {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -294,8 +294,8 @@ article header>h2 {
 
     .Logo {
         display: none;
-    }   
-    
+    }
+
     .promotional video {
         width: 100%;
         height: 15rem;
@@ -325,7 +325,7 @@ article header>h2 {
         width: 100%;
         height: 50px;
     }
-    
+
     nav ul li a {
         font-size: 16px;
         color: #ffffff;
@@ -380,3 +380,444 @@ article header>h2 {
 
 /* ===============Home Page=============== */
 
+/* ===============Contact Page=============== */
+
+#main-contact .col {
+    width: 98%;
+    margin: 10px;
+}
+
+#form {
+    width: 70%;
+    margin: 10px;
+}
+
+#form fieldset {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form legend {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#form input,
+textarea,
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#btn-submit {
+    background-color: #395144;
+    border-color: #2e3f36;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#btn-submit:hover {
+    background-color: #2e3f36;
+}
+
+#form label {
+    margin-bottom: 5px;
+}
+
+#main-contact aside {
+    width: 30%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #AA8B56;
+    flex-shrink: 0;
+    flex-grow: 0;
+    line-height: 20px;
+}
+
+#main-contact aside ul {
+    list-style: none;
+}
+
+#info {
+    margin: 10px;
+}
+
+#info ul {
+    line-height: 22px;
+}
+
+#address {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+#main-contact aside img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+@media (max-width: 798px) {
+    #main-contact .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #main-contact aside {
+        width: 29%;
+    }
+
+    #form {
+        width: 65%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #main-contact .row {
+        flex-direction: column;
+    }
+
+    #main-contact aside {
+        width: 96%;
+    }
+
+    #main-contact {
+        width: 96%;
+    }
+
+    #main-contact #form {
+        width: 97%;
+    }
+}
+
+/* ===============Contact Page=============== */
+
+/* ===============Pricing Page=============== */
+
+#main-pricing .col {
+    width: 98%;
+    margin: 10px;
+}
+
+#p-table {
+    max-width: 100%;
+    overflow: auto;
+}
+
+.overview {
+    margin: 10px;
+}
+
+.overview>article>p {
+    line-height: 20px;
+}
+
+#p-table table tbody tr td:first-child {
+    color: #FF0;
+}
+
+#p-table table {
+    width: 100%;
+    margin: 10px;
+    font-size: 13px;
+    color: #333;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+#p-table thead,
+tfoot {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #395144;
+}
+
+.td-img {
+    width: 20%;
+}
+
+#p-table tbody img {
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    box-shadow: 5px 5px 6px 0px #959595;
+}
+
+#p-table th,
+td {
+    padding: 10px;
+    border: 1px solid #00000017;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#p-table tbody tr:nth-child(even) {
+    background-color: #CFF;
+}
+
+#p-table tbody tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+#main-pricing #table-column {
+    width: 75%;
+}
+
+#pricing-aside {
+    width: 30%;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #AA8B56;
+    flex-shrink: 0;
+    flex-grow: 0;
+    line-height: 20px;
+}
+
+.aside-img {
+    width: 100%;
+    height: 200px;
+    margin: 5px 0;
+}
+
+#pricing-aside ul {
+    list-style: none;
+}
+
+#price-source {
+    margin: 10px;
+}
+
+@media (max-width: 798px) {
+
+    #main-pricing .row {
+        flex-direction: column;
+    }
+
+    #p-table {
+        width: 100%;
+    }
+
+    #main-pricing #table-coloumn {
+        width: 98%;
+    }
+
+    #pricing-aside {
+        width: 97%;
+    }
+
+    #pricing-aside ul li:first-child {
+        display: none;
+    }
+
+    #pricing-aside ul {
+        display: flex;
+    }
+
+    #pricing-aside ul li {
+        margin: 0 5px;
+    }
+
+    .aside-img {
+        width: 100%;
+        margin: 5px 0;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .overview header {
+        color: #000000;
+        margin: 5px 0;
+        padding: 0;
+        position: static;
+    }
+
+    #main-pricing .row {
+        flex-direction: column;
+    }
+
+    #main-pricing #table-coloumn {
+        width: 95%;
+    }
+
+    #pricing-aside {
+        width: 95%;
+    }
+
+    #p-table {
+        width: 98%;
+    }
+
+    #pricing-aside ul li:first-child {
+        display: block;
+    }
+
+    #pricing-aside ul {
+        display: block;
+    }
+
+    #pricing-aside ul li {
+        margin: 0 5px;
+    }
+}
+
+/* ===============Pricing Page=============== */
+
+/* ===============Product Page=============== */
+
+#prod-aside {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #AA8B56;
+    flex-shrink: 0;
+    flex-grow: 0;
+    line-height: 20px;
+}
+
+#prod-aside ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#prod-aside img {
+    width: 100%;
+    height: 252px;
+}
+
+#main-product .col {
+    width: 98%;
+    margin: 10px;
+}
+
+.item1 {
+    grid-area: art1;
+}
+
+.item2 {
+    grid-area: art2;
+}
+
+.item3 {
+    grid-area: art3;
+}
+
+.item4 {
+    grid-area: art4;
+}
+
+.item5 {
+    grid-area: art5;
+}
+
+.item6 {
+    grid-area: art6;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+        "art2 art1 art3"
+        "art5 art1 art3"
+        "art5 art1 art4"
+        "art5 art6 art6";
+    grid-template-columns: repeat(3, auto);
+}
+
+.grid-container section {
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 798px) {
+
+    #main-product .row {
+        flex-direction: column;
+    }
+
+    #prod-aside ul li:last-child {
+        display: none;
+    }
+
+    .grid-container article:nth-child(4) {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "art1 art2"
+            "art1 art2"
+            "art3 art2"
+
+            "art3 art5"
+            "art3 art5"
+            "art3 art5"
+
+            "art6 art6"
+            "art6 art6";
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    #main-product .row {
+        flex-direction: column;
+    }
+
+    #prod-aside ul {
+        display: block;
+    }
+
+    #prod-aside ul li:last-child {
+        display: block;
+    }
+
+    #prod-aside {
+        width: 70%;
+    }
+
+    .grid-container article:nth-child(4) {
+        display: none;
+    }
+
+    .grid-container article:nth-child(6) {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "art5 ."
+            "art5 ."
+            "art5 ."
+
+            "art3 ."
+            "art3 ."
+            "art3 ."
+            
+            "art2 ."
+            "art2 ."
+            "art2 ."
+
+            "art1 ."
+            "art1 ."
+            "art1 .";
+        grid-template-columns: 70% 30%;
+    }
+}
+
+/* ===============Product Page=============== */
